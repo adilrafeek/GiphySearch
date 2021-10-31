@@ -1,9 +1,9 @@
 /* 1. Grab the input value */
-
+console.log('client side javascript loaded.');
 
 const form = document.querySelector('form');
 const input = document.querySelector('input');
-const searchResult = document('#result');
+const searchResult = document.querySelector('#result');
   
   
   /* 2. do the data stuff with the API */
@@ -25,10 +25,7 @@ form.addEventListener('submit', (e) => {
 	console.error(err);
 });
 });
-  
-  
-  
-  
+
   
   /* 3. Show me the GIFs */
   
